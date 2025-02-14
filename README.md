@@ -1,14 +1,8 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Our goal with this project was to create a program that can send push notifications to a user's phone. We chose this to branch out from our previous CRUD-based programs. We wanted to create a system that sends messages to a user instead a system that receives messages from a user. We also wanted to learn more about mobile app development.
 
 {Provide a description of your app.  Describe how to use the app.}
-
-{Describe your purpose for creating this app.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
