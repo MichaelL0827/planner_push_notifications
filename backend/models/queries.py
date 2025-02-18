@@ -1,0 +1,1 @@
+CreateNewUser = 'INSERT INTO User VALUES (%s, %s, %s %s)'
