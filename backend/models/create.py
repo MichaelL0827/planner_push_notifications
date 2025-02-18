@@ -10,7 +10,7 @@ class CreateUser(BaseModel):
 class CreateTask(BaseModel):
     Name: str
     Description: str
-    UserId: int
+    Username: str
 
 class CreateTodo(BaseModel):
     Name: str

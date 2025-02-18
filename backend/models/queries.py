@@ -1,1 +1,2 @@
 CreateNewUser = "INSERT INTO user (Username, Firstname, Lastname, Password) VALUES (%s, %s, %s, %s)"
+CreateNewTask = "INSERT INTO task (Name, Description, UserId) VALUES (%s, %s, (SELECT Id FROM user WHERE Username = %s))"
