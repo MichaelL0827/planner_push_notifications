@@ -1,1 +1,1 @@
-CreateNewUser = 'INSERT INTO User VALUES (%s, %s, %s %s)'
+CreateNewUser = "INSERT INTO user (Username, Firstname, Lastname, Password) VALUES (%s, %s, %s, %s)"

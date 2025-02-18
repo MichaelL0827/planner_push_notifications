@@ -1,18 +1,18 @@
 from fastapi import APIRouter, Body
 from utils.helper import MakeConnection, QueryResult, HashPassword
-from models.connect import ConnectDatabase
-from models.create import CreateUser, CreateTask, CreateTodo, CreateUserTask
+from models.create import CreateUser
 from models.queries import CreateNewUser
 
 Router = APIRouter()
 
-Router.post("/user")
-def CreateUser(User: CreateUser = Body(...)):
+@Router.post("/user")
+async def CreateUser(User: CreateUser = Body(...)):
     try:
         ConnectionString = MakeConnection()
         try:
-            User = QueryResult(ConnectionString, CreateNewUser, 'create', (User.Username,User.Firstname, User.Lastname, HashPassword(User.Password),))
-        except:
-            exit()
+            User = QueryResult(ConnectionString, CreateNewUser, 'create', (User.Username, User.Firstname, User.Lastname, User.Password,))
+            return True
+        except Exception as Err:
+            return {"Status":"Cannot Create the"}
     except:
-        exit()
+        return {"Status":"Cannot Connect to the Database"}
