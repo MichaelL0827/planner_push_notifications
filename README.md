@@ -1,6 +1,6 @@
 # Overview
 
-Our goal with this project was to create a program that can send push notifications to a user's phone. We chose this to branch out from our previous CRUD-based programs. We wanted to create a system that sends messages to a user instead a system that receives messages from a user. We also wanted to learn more about mobile app development.
+Our goal with this project was to create a mobile app that can send push notifications to a user's phone. We chose this to branch out from our previous programs that were entirely CRUD-based. We wanted to create a system that sends messages to a user instead of just receiving them. We also wanted to learn more about mobile app development.
 
 {Provide a description of your app.  Describe how to use the app.}
 
@@ -13,7 +13,7 @@ Our goal with this project was to create a program that can send push notificati
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
+* [.NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
